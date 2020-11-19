@@ -9,7 +9,6 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1366.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <HBox prefHeight="100.0" prefWidth="1366.0">
@@ -27,7 +26,7 @@
                <children>
                   <Label layoutX="4.0" layoutY="33.0" prefWidth="150.0" text="INVOICE" textFill="#259ad0">
                      <font>
-                        <Font size="30.0" />
+                        <Font name="System Bold" size="30.0" />
                      </font>
                   </Label>
                </children>
@@ -38,7 +37,7 @@
          <children>
             <Pane prefHeight="400.0" prefWidth="683.0">
                <children>
-                  <Label layoutX="90.0" layoutY="81.0" text="Name">
+                  <Label layoutX="85.0" layoutY="81.0" text="Name">
                      <font>
                         <Font size="24.0" />
                      </font>
@@ -48,7 +47,7 @@
                         <Font size="24.0" />
                      </font>
                   </Label>
-                  <Label layoutX="90.0" layoutY="128.0" text="Phone">
+                  <Label layoutX="85.0" layoutY="128.0" text="Phone">
                      <font>
                         <Font size="24.0" />
                      </font>
@@ -58,7 +57,7 @@
                         <Font size="24.0" />
                      </font>
                   </Label>
-                  <Label layoutX="90.0" layoutY="180.0" text="City">
+                  <Label layoutX="85.0" layoutY="180.0" text="City">
                      <font>
                         <Font size="24.0" />
                      </font>
@@ -68,7 +67,7 @@
                         <Font size="24.0" />
                      </font>
                   </Label>
-                  <Label layoutX="90.0" layoutY="240.0" text="Address">
+                  <Label layoutX="85.0" layoutY="240.0" text="Address">
                      <font>
                         <Font size="24.0" />
                      </font>
@@ -78,12 +77,22 @@
                         <Font size="24.0" />
                      </font>
                   </Label>
-                  <Label layoutX="87.0" layoutY="299.0" text="Shipping Instructions">
+                  <Label layoutX="85.0" layoutY="299.0" text="Shipping Instructions">
                      <font>
                         <Font size="24.0" />
                      </font>
                   </Label>
                   <Label layoutX="420.0" layoutY="299.0" text="Shipping Instructions">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="85.0" layoutY="350.0" text="Time(Rush Order)">
+                     <font>
+                        <Font size="24.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="420.0" layoutY="350.0" text="10h">
                      <font>
                         <Font size="24.0" />
                      </font>
